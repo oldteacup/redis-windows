@@ -1,4 +1,4 @@
-name: Build Redis DIY
+name: Build Redis For Windows (MinGW)
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
       tag_name:
         description: 'Version'
         required: true
-        default: "6.2.13"
+        default: "7.2.5"
         type: string
       make_latest:
         description: 'Latest'
